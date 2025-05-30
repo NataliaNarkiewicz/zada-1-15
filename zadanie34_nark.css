@@ -1,11 +1,8 @@
   h3 {
- width: 200pt;
- height:2.2cm;
-
-  margin-left     : 710px; 
- border-color:maroon;
- border-style: double;
- background : #808080 );
- font-size:30px;
- margin-left: 100px;
- }
+      width: 200pt;
+      height: 2.2cm;
+      background: rgb(255,200,100); /* odcień pomarańczowego */
+      border: 3px double black;
+      border-style: inset;
+      margin-left: 600px;
+    }
