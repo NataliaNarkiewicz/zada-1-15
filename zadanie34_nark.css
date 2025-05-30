@@ -1,9 +1,11 @@
   h3 {
- width: 400pt;
- height:4cm;
+ width: 200pt;
+ height:2.2cm;
+
+  margin-left     : 710px; 
  border-color:maroon;
  border-style: double;
- background : rgb(219,112,147);
+ background : #808080 );
  font-size:30px;
  margin-left: 100px;
  }
