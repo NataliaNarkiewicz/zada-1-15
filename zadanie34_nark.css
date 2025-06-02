@@ -1,8 +1,14 @@
-  h3 {
-      width: 200pt;
-      height: 2.2cm;
-      background: rgb(255,200,100); /* odcień pomarańczowego */
-      border: 3px double black;
-      border-style: inset;
-      margin-left: 600px;
-    }
+/* zadanie34_dolny.css */
+/* Imię i nazwisko, klasa i grupa */
+.blok-dolny {
+    width: 200pt;
+    height: 2.2cm;
+    background: rgb(255, 165, 0); /* Odcień pomarańczowy */
+    border: 3px solid #808080; /* gray */
+    border-style: ridge;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
