@@ -1,57 +1,92 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <link href="zadanie34_nark.css" rel="stylesheet" type="text/CSS">
-<title>zadanie 34-Narkiewicz</title>
-<meta charset="utf-8" />
-<style type="text/css">
- h1 {
- width: 300pt;
- height:2.6cm;
- background : rgb(255,165,0);
-border-top: 3px solid red;
-      border-bottom: 4px solid red;
-      border-left: 11px solid red;
-      border-right: 6px solid red;
-      border-style: groove;
-      font-size: 13px;
-      margin-left: 1000px; /* nr dziennika */
- }
- h2 {
-   width: 400pt;
-      height: 3.1cm;
-      background: rgb(255,140,0); /* odcień pomarańczowego */
-      border: 1px dotted black;
-      border-style: ridge;
-      margin-left: 400px;
- }
- </style>
- </head>
- <body>
- <h1>Narkiewicz <br>
-      width: 300pt;
-      height: 2.6cm;
-      background: rgb(255,165,0); /* odcień pomarańczowego */
-      border-top: 3px solid red;
-      border-bottom: 4px solid red;
-      border-left: 11px solid red;
-      border-right: 6px solid red;
-      border-style: groove;
-      font-size: 13px;
-      margin-left: 19px; /* nr dziennika */</h1>
- <h2>Natalia
-     width: 400pt;
-      height: 3.1cm;
-      background: rgb(255,140,0); /* odcień pomarańczowego */
-      border: 1px dotted black;
-      border-style: ridge;
-      margin-left: 400px;;</h2>
- <h3> 2F, gr 1, 11:48, 30.05.2025r. <br> 
- width: 200pt;
-      height: 2.2cm;
-      background: rgb(255,200,100); /* odcień pomarańczowego */
-      border: 3px double black;
-      border-style: inset;
-      margin-left: 600px;</h3>
- </body>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 34 - Model Pudełkowy</title>
+    <style>
+        body {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .blok {
+            position: absolute;
+            padding: 10px;
+        }
+
+        .blok-gorny {
+            width: 300pt;
+            height: 2.6cm;
+            background: rgb(255, 165, 0); /* Odcień pomarańczowy */
+            border: 3px groove #808080; /* gray */
+            border-bottom: 4px solid #800000; /* red */
+            border-left: 11px dotted #FFFF00; /* yellow */
+            border-right: 6px ridge #800080; /* purple */
+            text-align: center;
+            font-size: 14px;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+border-style: groove;
+        }
+
+        .blok-srodkowy {
+            width: 400pt;
+            height: 3.1cm;
+            background: rgb(255, 165, 0); /* Odcień pomarańczowy */
+            border: 1px solid #000000; /* black */
+            text-align: center;
+            font-size: 14px;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+border-style: soild;
+        }
+
+    </style>
+<link rel="stylesheet" type="text/css" href="zadanie34_nark.css">
+</head>
+<body>
+    <div class="blok blok-gorny"> <b>Narkiewicz: </b>
+             width: 300pt;  
+              height: 2.6cm;  
+              background: rgb(255, 165, 0); /* Odcień pomarańczowy */ 
+              border: 3px groove #808080; /* gray */
+              border-bottom: 4px solid #800000; /* red */  
+              border-left: 11px dotted #FFFF00; /* yellow */  
+              border-right: 6px ridge #800080; /* purple */ 
+              text-align: center;  
+              font-size: 14px; 
+              top: 10px; 
+              left: 50%;  
+              transform: translateX(-50%); 
+              border-style: groove;  
+</div> 
+    <div class="blok blok-srodkowy"><b>Natalia: </b> <br>
+              width: 400pt; 
+              height: 3.1cm;  
+              background: rgb(255, 165, 0); /* Odcień pomarańczowy */  
+              border: 1px solid #000000; /* black */  
+              text-align: center;  
+              font-size: 14px;  
+              left: 10px; 
+              top: 50%; 
+              transform: translateY(-50%); 
+              border-style: soild;  
+</div>
+
+    <div class="blok blok-dolny"><b> Numer w dzienniku 19 , klasa: 2F </b>  <br>
+            width: 200pt; height: 2.2cm; background: rgb(255, 165, 0); /* Odcień pomarańczowy */  
+              border: 3px solid #808080; /* gray */ 
+              border-style: ridge; 
+              text-align: center; 
+              font-size: 12px; 
+              right: 10px;bottom: 10px;
+	      border-style: ridge;</div>
+ /* Natalia Narkiewicz, 09:11, 02.06.2026 */
+</body>
 </html>
